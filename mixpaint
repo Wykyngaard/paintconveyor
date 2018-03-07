@@ -1,0 +1,11 @@
+c = machine.order();
+machine conveyor();
+  if (c == "blue"){blue.spray();}
+  if (c == "yellow"){yellow.spray();}
+  if (c == "red"){red.spray();}
+  if (c == "green"){blue.spray() + yellow.spray();}
+  if (c == "orange"){yellow.spray() + red.spray();}
+  if (c == "purple"){blue.spray() + red.spray();}
+  if (c == "brown"){blue.spray() + yellow.spray() + red.spray();}
+  if (c == "white");
+machine.conveyor();
